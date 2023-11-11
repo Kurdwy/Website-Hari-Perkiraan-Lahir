@@ -1,0 +1,124 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.custom-navbar{
+border-bottom-left-radius: 20vh;
+border-bottom-right-radius: 20vh;
+background: linear-gradient(to right, #E61987, #e88abc);
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  
+  .calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="date"] {
+    width: 100%;
+    padding: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    outline: none;
+    font-weight: bold;
+  }
+  
+  button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #E61987;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #EB479F;
+  }
+  
+  .result-container {
+    text-align: center;
+  }
+  
+  p#dueDateNaegele {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  p#dueDateParikh {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  footer{
+    border-top-left-radius: 20vh;
+border-top-right-radius: 20vh;
+background: linear-gradient(to left, #E61987, #e88abc);
+  }
+
+/* Gaya untuk splash screen */
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white; /* Ganti dengan warna latar belakang yang Anda inginkan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Pastikan z-index lebih tinggi agar muncul di atas konten lain */
+}
+
+.splash-content {
+    text-align: center;
+    /* Gaya lainnya untuk konten dalam splash screen */
+}
+
+.with-bottom-line {
+    border-bottom: 1px solid grey; /* Atur properti sesuai keinginan Anda */
+ 
+}
+
+.dynamic-text {
+  margin-top:20px;
+  font-size: 13px; /* Contoh gaya: ukuran font 14px */
+  color: grey; /* Contoh gaya: warna merah */
+  text-align: justify; /* Membuat teks rata kanan-kiri */
+  font-style: italic; /* Membuat teks miring */
+}
+  
+
+  
